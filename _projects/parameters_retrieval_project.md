@@ -6,7 +6,7 @@ description: Program designed to process the results from material simulations (
 ---
 
 # In 30s or less
-<div style="color: #CCF7FE">
+<div style="background-color: #CCF7FE">
 To be filled
 </div>
 
