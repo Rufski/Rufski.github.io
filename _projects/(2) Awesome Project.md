@@ -6,8 +6,7 @@ description: Program written during my PhD to retrieve electromagnetic parameter
 ---
 
 # In 30s or less
-
-<div class=#CCF7FE>
+<div style="color: #CCF7FE">
 To be filled
 </div>
 
