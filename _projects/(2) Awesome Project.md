@@ -1,7 +1,7 @@
 ---
 name: Effective electromagnetic parameters retrieval program
 tools: [Python, Research]
-image: image/joel-filipe-jU9VAZDGMzs-unsplash.jpg
+image: images/joel-filipe-jU9VAZDGMzs-unsplash.jpg
 description: Program written during my PhD to retrieve electromagnetic parameters from material simulations.
 ---
 
