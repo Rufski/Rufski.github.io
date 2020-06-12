@@ -1,8 +1,8 @@
 ---
-name: Effective electromagnetic parameters retrieval program
+name: [PhD work] Effective electromagnetic parameters retrieval program
 tools: [Python, Research]
 image: ../images/joel-filipe-jU9VAZDGMzs-unsplash.jpg
-description: Program written during my PhD to retrieve electromagnetic parameters from material simulations.
+description: Program designed to process the results from material simulations (such as CST Microwave Studio) and extract the material's effective parameters (permittivity, permeability...).
 ---
 
 # In 30s or less
