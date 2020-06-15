@@ -15,6 +15,7 @@ In this data science project, I will collect and analyse data from horse races i
 <ol>
   <li> generating revenues from application of the model's prediction to races while keeping the probability of the gambler's ruin minimal</li>
   <li> generating revenues from a commercial distribution of those predictions, with substantiated claims that those predictions have a better accuracy than the claims of tip-selling competitors</li>
+</ol>
 
 Prospects of the project include:
 <ul>
