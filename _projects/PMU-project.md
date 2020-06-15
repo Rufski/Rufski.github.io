@@ -11,7 +11,10 @@ description: Data Science project for the analysis of French horse races.
 <br>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
-In this data science project, I will collect and analyse data from horse races in France over the period 2004-2019. The goal is to develop a model that can predict the races results to the end of either (1) generating revenues from application of the model's prediction to races while keeping the probability of the gambler's ruin minimal, or (2) generating revenues from a commercial distribution of those predictions, with substantiated claims that those predictions have a better accuracy than the claims of tip-selling competitors.
+In this data science project, I will collect and analyse data from horse races in France over the period 2004-2019. The goal is to develop a model that can predict the races results to the end of either:
+<ol>
+  <li> generating revenues from application of the model's prediction to races while keeping the probability of the gambler's ruin minimal</li>
+  <li> generating revenues from a commercial distribution of those predictions, with substantiated claims that those predictions have a better accuracy than the claims of tip-selling competitors</li>
 
 Prospects of the project include:
 <ul>
