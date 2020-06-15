@@ -25,8 +25,8 @@ Prospects of the project include:
 <li> logistic regression using machine learning methods / deep learning methods to predict the results of a given race</li>
 <li> reproducing research methods to improve the model</li>
 </ul>
-To be updated weekly.</div>
+</div>
 
-## The program
+<h2>The program</h2>
 
 To be filled.
