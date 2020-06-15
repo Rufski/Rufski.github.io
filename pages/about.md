@@ -15,10 +15,5 @@ Daytime I spend on my PhD in Mechanical Engineering at the University of Washing
 <b>I’m currently looking to get hired at a Data Scientist!</b> Looking for work in the US, Europe or Japan. Have a look at my <a href="https://www.linkedin.com/in/wegrowski/">LinkedIn</a> and send me a message there!
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
 {% include about/timeline.html %}
 </div>
