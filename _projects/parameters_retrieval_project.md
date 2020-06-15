@@ -7,7 +7,7 @@ description: Program designed to process the results from material simulations (
 
 <h1><b>Effective electromagnetic parameters retrieval project</b></h1>
 <br>
-<img src="../images/joel-filipe-unsplash.jpg.jpg">
+<img src="../images/joel-filipe-unsplash.jpg">
 <br>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
