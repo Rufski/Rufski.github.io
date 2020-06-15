@@ -1,14 +1,13 @@
 ---
 name: Effective electromagnetic parameters retrieval program
 tools: [Python, Pandas, Numpy, Matplotlib, Literature Research]
-image: ../images/parameters-retrieval-project-image.jpg
+image: ../images/project_1_image.jpg
 description: Program designed to process the results from material simulations (such as CST Microwave Studio) and extract the material's effective parameters (permittivity, permeability...).
 ---
 
 <h1><b>Effective electromagnetic parameters retrieval project</b></h1>
 <br>
-<img src="../images/parameters-retrieval-project-image.jpg">
-<div style="color: #BABABA; text-align:right">Photo by Joel Filipe on Unsplash</div>
+<img src="../images/project_1_image.jpg" alt="Photo by Joel Filipe on Unsplash">
 <br>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
