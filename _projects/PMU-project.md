@@ -4,7 +4,8 @@ tools: [Python, BeautifulSoup, Pandas, Numpy, Research]
 image: ../images/horse-races.jpg
 description: Data Science project for the analysis of French horse races.
 ---
-
+<h1>PMU project</h1>
+<img src="../images/horse-races.jpg"></img>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
 This repository hosts a data science project that will consist in the collection and analysis of data from horse races in France over the period 2004-2019.
