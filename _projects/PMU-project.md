@@ -5,8 +5,8 @@ image: ../images/horse-races.jpg
 description: Data Science project for the analysis of French horse races.
 ---
 
-# In 30s or less
 <div style="background-color: #CEE6FF, border-color: #007BFF">
+  <h2> In 30s or less:</h2>
 To be filled
 </div>
 
