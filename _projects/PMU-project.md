@@ -7,7 +7,7 @@ description: Data Science project for the analysis of French horse races.
 
 <h1><b>PMU project</b></h1>
 <br>
-<img src="../images/horse-races.jpg" alt="Photo by Pietro Mattia on Unsplash">
+<img src="../images/horse-races.jpg" alt="Photo by Pietro Mattia on Unsplash" width="500">
 <br>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
