@@ -9,11 +9,11 @@ description: On the stupid and less stupid ways of making money through horse ra
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-# PMU project part 1: Prologue
-
 *On the stupid and less stupid ways of making money through horse races*
 
-
+<img src="../images/dice.jpg">
+<div style="color: #BABABA; text-align:right">Photo by Jonathan Petersson on Unsplash</div>
+<br>
 
 ## Quick story
 
