@@ -14,14 +14,19 @@ description: On the stupid and less stupid ways of making money through horse ra
 
 ## Quick story
 
-In my early 20s I was dumb enough that I came to believe in that "one weird trick found by a single mom in your area" I once bumped
-into. It took me 10 years to realize that trick had a name: martingale. For those unfamiliar with the term, martingales are a class
-of betting strategies that appeared in XVIIIth Century France. The simplest of those strategies goes like this:
+In my early 20s I fell into a dumb trap.
 
-> Given a game where you have a 50% chance of winning twice your bet and a 50% chance of losing your bet, follow the strategy below:
-> - bet one unit for a given game;
-> - if you lose, keep betting until you win, each time twice the amount you previously bet;
-> - if you win, return to the first step.
+Somewhere on the internet I had bumped into one of those "one weird tricks found by a single mom in your area." The trick itself
+was presented as a fresh, unknown and logic-tight method to win at the horse races. I later came to find out that that trick had actually been around since the XVIIIth century (fresh indeed) and had been debunked by a mathematician, Joseph L. Doob, about 60 years ago.
+
+The trick went like that:
+
+> - Find a bet that, if won, would double your ante
+> - Bet one unit on this game
+> - If you lose, keep finding other similar bets and bet until you win, each time betting twice the amount you previously bet
+> - If you win, return to the first step
+
+The naive idea was that even if you would lose n bets, having successively bet 1 dollar, 2 dollars, 4 dollars... 2^n dollars,  
 
 
 
