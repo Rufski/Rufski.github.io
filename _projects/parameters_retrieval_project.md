@@ -33,8 +33,8 @@ Chen, Xudong, et al. [“Robust method to retrieve the constitutive effective pa
 9 graphs plotting the complex effective parameters (permittivity, permeability, impedance, refractive index, figure of merit, phase and amplitude of both transmission and reflection) over the range of frequency covered by the S-parameter input files.
 
 ### Parameters to adjust within the program before running
-frequnit: factor that converts the predetermined CST frequency unit (e.g. GHz, THz...) to Hz
-lengthunit: same as above but for length
+- frequnit: factor that converts the predetermined CST frequency unit (e.g. GHz, THz...) to Hz
+- lengthunit: same as above but for length
 L10: distance between the material's front surface and port 1
 L20: distance between the material's back surface and port 2
 SlabThick: thickness of the simulated material
