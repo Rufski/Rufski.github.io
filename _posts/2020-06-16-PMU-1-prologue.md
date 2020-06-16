@@ -15,7 +15,7 @@ description: On the stupid and less stupid ways of making money through horse ra
 <div style="color: #BABABA; text-align:right">Photo by Jonathan Petersson on Unsplash</div>
 <br>
 
-## Quick story
+## The stupid way to win at the races
 
 In my early 20s I fell into a dumb trap.
 
@@ -39,6 +39,10 @@ Here's one easy way to visualize this:
 
 I'm plotting the approximate chances of reaching 100 dollars as a function of the initial sum available to play (these chances have been computed by Monte-Carlo simulation over 10,000 games for each initial sum; I assumed a 50% chances of winning). Notice how the graph slightly curves down. If you're looking to reach the 100 dollars with a 95% confidence, you need to start with... 97 dollars! With a 3% gain that's not the most lucrative of games.
 
-There's further problems with the application of this strategy, among others the fact that, while I assumed above a 50% chances of winning, nothing says that a horse with odds 2:1 has a 50% chances of winning. Rather, odds represent the betters' **confidence** in the horse, which might, or might not, prove justified.
+There's further problems with the application of this strategy, among others the fact that, while I assumed above a 50% chances of winning, nothing says that a horse with odds 2:1 has a 50% chances of winning. Rather, odds represent the pool of betters' **confidence** in the horse (how many betters placed bets on the horse), which might, or might not, prove justified.
 
-## 
+## The less stupid way to win at the races
+
+Fast forward ten years later. I bump into <a href="https://www.bloomberg.com/news/features/2018-05-03/the-gambler-who-cracked-the-horse-racing-code">this very entertaining article</a> telling the story of Bill Benter, who made a fortune by applying statistical anlysis to Hong Kong horse races. Much better than the single mom and her one weird trick. Over the span of 15 years, Benter and his associates developed a quantitative analysis team that worked on strategies that would eventually win them the biggest jackpot of the Hong Kong races (amounting to about $13 millions). That sentence does not give credit to the fantastic story so go ahead and read the Bloomberg article.
+
+That article found me in times where I was waist deep into machine learning. 
