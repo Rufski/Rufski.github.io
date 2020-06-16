@@ -35,6 +35,6 @@ Chen, Xudong, et al. [“Robust method to retrieve the constitutive effective pa
 ### Parameters to adjust within the program before running
 frequnit, lengthunit, L10, L20, SlabThick, L1a, L2a.
 
-["Link to the program"](https://github.com/Rufski/PhD_work_Effective_parameters_retrieval_program)
+[The code is here](https://github.com/Rufski/PhD_work_Effective_parameters_retrieval_program)
 
 
