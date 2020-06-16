@@ -33,7 +33,7 @@ Prospects of the project include:
 
 <h2>The program</h2>
 
-<a href="../blog/PMU-1-prologue.md">Part 1 - Prologue</a>
+<a href="https://rufski.github.io/blog/PMU-1-prologue">Part 1 - Prologue</a>
 <i>Where I explain how I experienced first-hand the statistical fallacy of a martingale, what sparked a renewal in motivation to work on horse races again, and the roadmap I will be following.</i>
 <br>
 
