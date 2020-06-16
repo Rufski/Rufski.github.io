@@ -29,7 +29,11 @@ The trick went like that:
 > - If you lose, keep finding other similar bets and bet until you win, each time betting twice the amount you previously bet
 > - If you win, return to the first step
 
-The naive idea was that even if you would lose n bets, having successively yet unsuccessfully bet 1 dollar, 2 dollars, 4 dollars... \\( 2^{n-1} \\) dollars, the sum of those bets equal \\( 2^n -1 \\) (finite geometric series), so that by finally betting \\( 2^n \\) and winning twice that, the net gain from this series of bet would be \\( -(2^n - 1) - 2^n + 2\cdot 2^n = 1 \\). **With this strategy, you always end up winning one dollar!**
+The naive idea was that even if you would lose n bets, having successively yet unsuccessfully bet 1 dollar, 2 dollars, 4 dollars... \\( 2^{n-1} \\) dollars, the sum of those bets equal \\( 2^n -1 \\) (finite geometric series), so that by finally betting \\( 2^n \\) and winning twice that, the net gain from this series of bet would be \\( -(2^n - 1) - 2^n + 2\cdot 2^n = 1 \\). **With this strategy, you always end up winning one dollar, no matter what!**
+
+Terms and conditions apply, of course. I logged onto a registered online betting website and started applying the method. And I won. And I won. And I kept winning, one euro at a time. And I felt like a smart guy, having hacked the system with a fool-proof way to keep winning... until, for one series of games, I started to have to double my bets again, and again, and again, until I found myself having to bet *all my money* (a mere 100 euros, but a fortune for me at the time). That's when I realized the trap: **you need to have an infinite amount of money available to bet in order to keep applying the trick.**
+
+
 
 
 
