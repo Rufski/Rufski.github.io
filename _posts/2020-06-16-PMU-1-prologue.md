@@ -6,6 +6,9 @@ color: primary
 description: On the stupid and less stupid ways of making money through horse races.
 ---
 
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 # PMU project part 1: Prologue
 
 *On the stupid and less stupid ways of making money through horse races*
@@ -28,5 +31,5 @@ The trick went like that:
 
 The naive idea was that even if you would lose n bets, having successively bet 1 dollar, 2 dollars, 4 dollars... 2^n dollars,  
 
-
+\\( a^2 = b^2 \\)
 
