@@ -2,12 +2,12 @@
 name: Effective electromagnetic parameters retrieval program
 tools: [Python, Pandas, Numpy, Matplotlib, Literature Research]
 image: ../images/parameters-retrieval-project-image.jpg
-description: A program I wrote for my Ph.D. research. It takes the results of some material's simulation, and uses those results to compute and plot the material's effective parameters (permittivity, permeability...).
+description: Program I wrote for my Ph.D. research, taking the results of a material's simulation and using those results to compute and plot the material's effective parameters (permittivity, permeability...).
 ---
 
 <h1><b>Effective electromagnetic parameters retrieval project</b></h1>
 <br>
-<div style="color: #888888; font-style: oblique">A program I wrote for my Ph.D. research. It takes the results of some material's simulation, and uses those results to compute and plot the material's effective parameters (permittivity, permeability...).</div>
+<div style="color: #888888; font-style: oblique">Program I wrote for my Ph.D. research, taking the results of a material's simulation and using those results to compute and plot the material's effective parameters (permittivity, permeability...).</div>
 <br>
 <img src="../images/parameters-retrieval-project-image.jpg">
 <div style="color: #BABABA; text-align:right">Photo by Joel Filipe on Unsplash</div>
