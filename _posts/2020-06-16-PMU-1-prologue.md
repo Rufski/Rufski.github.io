@@ -35,7 +35,8 @@ Terms and conditions apply, of course. I logged onto a registered online betting
 
 Here's one easy way to visualize this:
 
-<img src="../images/pmu-1-img1.png">
+
+![](../images/pmu-1-img1.png)
 
 I'm plotting the approximate chances of reaching 100 dollars as a function of the initial sum available to play (these chances have been computed by Monte-Carlo simulation over 10,000 games for each initial sum; I assumed a 50% chances of winning). Notice how the graph slightly curves down. If you're looking to reach the 100 dollars with a 95% confidence, you need to start with... 97 dollars! With a 3% gain that's not the most lucrative of games.
 
