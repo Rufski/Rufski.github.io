@@ -5,6 +5,7 @@ style: fill
 color: primary
 description: On the stupid and less stupid ways of making money through horse races.
 ---
+
 <h1><b>PMU project part 1: Prologue</b></h1>
 <br>
 <div style="color: #888888; font-style: oblique">On the stupid and less stupid ways of making money through horse races</div>
