@@ -29,7 +29,7 @@ The trick went like that:
 > - If you lose, keep finding other similar bets and bet until you win, each time betting twice the amount you previously bet
 > - If you win, return to the first step
 
-The naive idea was that even if you would lose n bets, having successively bet 1 dollar, 2 dollars, 4 dollars... 2^n dollars,  
+The naive idea was that even if you would lose n bets, having successively yet unsuccessfully bet 1 dollar, 2 dollars, 4 dollars... \\( 2^{n-1} \\) dollars, the sum of those bets equal \\( 2^n -1 \\) (finite geometric series), so that by finally betting \\( 2^n \\) and winning twice that, the net gain from this series of bet would be \\( -(2^n - 1) - 2^n + 2\cdot 2^n = 1 \\). **With this strategy, you always end up winning one dollar!**
 
-\\( a^2 = b^2 \\)
+
 
