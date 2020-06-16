@@ -6,13 +6,11 @@ color: primary
 description: On the stupid and less stupid ways of making money through horse races.
 ---
 
-<h1><b>PMU project part 1: Prologue</b></h1>
-<br>
-<div style="color: #888888; font-style: oblique">On the stupid and less stupid ways of making money through horse races</div>
-<br>
-<img src="../images/dice.jpg">
-<div style="color: #BABABA; text-align:right">Photo by Jonathan Petersson on Unsplash</div>
-<br>
+# PMU project part 1: Prologue
+
+*On the stupid and less stupid ways of making money through horse races*
+
+
 
 ## Quick story
 
