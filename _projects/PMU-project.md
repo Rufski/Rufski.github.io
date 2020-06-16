@@ -7,6 +7,9 @@ description: Data Science project for the analysis of French horse races.
 
 <h1><b>PMU project</b></h1>
 <br>
+<div style="color: #888888; font-style: oblique">Data Science project for the analysis of French horse races.</div>
+<br>
+
 <img src="../images/horse-races.jpg">
 <div style="color: #BABABA; text-align:right">Photo by Pietro Mattia on Unsplash</div>
 <br>
