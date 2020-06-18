@@ -8,7 +8,9 @@ description: First step of the project: collecting data and storing it in a SQL 
 
 *First step of the project: collecting data and storing it in a SQL database.*
 
-
+<img src="../images/digging.jpg">
+<div style="color: #BABABA; text-align:right">Photo by Aubrey Rose Odom on Unsplash</div>
+<br>
 
 ## The source
 
