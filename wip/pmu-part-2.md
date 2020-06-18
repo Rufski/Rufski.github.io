@@ -3,7 +3,7 @@ title: PMU project part 2 — Data scraping
 tags: [Python, BeautifulSoup, Pandas]
 style: fill
 color: primary
-description: First step of the project: collecting data and storing it in a SQL database.
+description: First step of the project is collecting data and storing it in a SQL database.
 ---
 
 *First step of the project: collecting data and storing it in a SQL database.*
