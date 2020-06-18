@@ -8,6 +8,9 @@ description: First step of the project: collecting data and storing it in a SQL 
 
 *First step of the project: collecting data and storing it in a SQL database.*
 
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 <img src="../images/digging.jpg">
 <div style="color: #BABABA; text-align:right">Photo by Aubrey Rose Odom on Unsplash</div>
 <br>
@@ -36,8 +39,8 @@ Below is a breakdown of the informations that were collected *about the horse*:
 - the trainer's name
 - the horse's average timing for a km during the race
 - how much money the horse won at this race
-- the horse's former performance (more on that later)
-- the odds on the horse (how much people bet on the horse as opposed to other horses; calculation detailed below)
+- the horse's former performance (see below)
+- the odds on the horse (the ratio of total money not bet on the horse to the total money bet on the horse)
 - whether the horse ends up running the race (some horses are scheduled to run but end up not running)
 - the horse's finishing position
 
@@ -51,10 +54,7 @@ I added to these informations more info about the race itself:
 - the race's length
 - the number of horses supposed to run
 
-Before I move on, two quick precisions on the horse's performance and the way odds are calculated.
+Before I move on, one quick precisions on the horse's performance.
 
 ### Music: the horse's past performance
-For each running horse their past performance is indicated. In French this is poetically refered to as "music." 
-
-### How odds are computed
-Odds follow the below formula:
+For each running horse their past performance is indicated as a combination of letters and numbers. In French this is poetically refered to as "music." 
