@@ -118,6 +118,12 @@ For the second element:
 
 ## Scraping strategy
 
-In general, for each feature I chose to take the content between the HTML tags *as is* instead of assumming what the possibilities could be, in case some feature would have possible values that I wasn't aware of (say, a special race category).
+The website archive's section is neatly arranged by year, each year leading to a page presenting a list of the months, each month giving a list of the day races happening (one link per race *and* location, meaning races can happen at several locations on a given day; to note too, several races usually occur on a given day within a same location).
 
-I did my best to prepare for missing values, filling in with a "n/a" whenever the value wasn't indicated. **To be noted:** this does not necessarily mean the website's information was missing; some races category, for instance, do not specify the jockey's weight or do not have barriers number.
+For each feature I chose to take the content between the HTML tags *as is* instead of assumming what the possibilities could be, in case some feature would have possible values that I wasn't aware of (say, a special race subcategory).
+
+I did my best to prepare for missing values, filling in with a "n/a" whenever the value wasn't indicated.
+**To be noted:** "n/a" does not necessarily mean the website's information was missing; some races category, for instance, do not specify the jockey's weight or do not have barriers numbers, so that it is expected to have a "n/a" for those features in those cases.
+**Also:** some feature values are inferred by the *absence* of content within the tags: for instance, in the case of blinkers, only their presence is indicated on the HTML page, so that it is impossible to distinguish a no-blinkers status from a lack of data (as opposed to the jockey's name feature, where absence of information clearly conveys lack of data).
+
+Speaking of missing values, the page of the races of Sunday the 31st of 2019 at Auteuil was empty, with no race being indicated. I added two lines of code to that effect to check whether the page.
