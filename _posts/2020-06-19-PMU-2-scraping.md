@@ -33,12 +33,16 @@ usage, so I did my best to come up with translations, which might or might not b
 use. I nonetheless did my best to explain what each term refers to. For bilingual readers, the French term has been included in parenthesis.
 
 Below is a breakdown of the informations that were collected *about the horse*:
-- the horse's number (a form of ID for the race)
-- the horse's name
-- whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or 
+
+| Parameter's name | Information |
+|:----------------:|-------------|
+|horse_ID          |the horse's number (a form of ID for the race)|
+|horse_name        |the horse's name|
+|unshoed           |whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or 
 rear hooves, or might not have any shoes on; considering the shoes' weight, this is sometimes believed to have an 
-impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)
-- the jockey's weight
+impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)|
+|weight            |the jockey's weight|
+
 - the horse's barrier position (the equivalent of a sprinter's starting block)
 - the horse's country of origin (seemingly the place of birth)
 - whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences;
@@ -54,7 +58,7 @@ several types of blinkers exist the source only informs on the presence or absen
 - whether the horse ends up running the race (some horses are scheduled to run but end up not running)
 - the horse's finishing position
 
-I added to these informations more info about the race itself:
+I added to these informations more info *about the race*:
 - the race category (see below)
 - the race subcategory (see below)
 - the race's name
