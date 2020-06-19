@@ -118,4 +118,6 @@ For the second element:
 
 ## Scraping strategy
 
-In general I decided to take the content of 
+In general, for each feature I chose to take the content between the HTML tags *as is* instead of assumming what the possibilities could be, in case some feature would have possible values that I wasn't aware of (say, a special race category).
+
+I did my best to prepare for missing values, filling in with a "n/a" whenever the value wasn't indicated. **To be noted:** this does not necessarily mean the website's information was missing; some races category, for instance, do not specify the jockey's weight or do not have barriers number.
