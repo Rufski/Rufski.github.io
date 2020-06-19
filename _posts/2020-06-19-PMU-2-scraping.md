@@ -23,7 +23,7 @@ description: First step of the project is collecting data and storing it in a SQ
         <li><a href="#data_collected">The data collected</a> (with feature description)
         <ul>
                 <li><a href="#races_categories">Races categories and subcategories</a></li>
-                <li><a href="#music">Music: the horse's past performance</a><li>
+                <li><a href="#music">Music: the horse's past performance</a></li>
         </ul>
         </li>
         <li><a href="#scraping_strategy">Scraping strategy</a></li>
