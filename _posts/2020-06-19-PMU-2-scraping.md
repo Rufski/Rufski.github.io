@@ -30,7 +30,7 @@ say, 10 horses compete, the database hosts 10 entries, one for each horse.
 
 **Nota bene:** the data was collected from a source written in French. I am not familiar with the English terms in 
 usage, so I did my best to come up with translations, which might or might not be what English-speaking professionals 
-use. I nonetheless did my best to explain what each term refers to.
+use. I nonetheless did my best to explain what each term refers to. For bilingual readers, the French term has been included in parenthesis.
 
 Below is a breakdown of the informations that were collected *about the horse*:
 - the horse's number (a form of ID for the race)
@@ -66,8 +66,24 @@ I added to these informations more info about the race itself:
 
 Before I move on, one quick precisions on the races categories and the horse's performance.
 
-### Races categories
+### Races categories and subcategories
 
+The races have been divided using two indications that I named "category" and "subcategory" even though there is no hierarchy between the two qualifiers. 
+
+The categories of races are:
+- trotting ("trot"), where horses run in a medium-paced gait, the trot
+- jump racing ("obstacle"), where the horses have to race over obstacles
+- flat racing ("plat"), where horses run full speed (gallop) between two points
+
+The subcategories are:
+- for trotting:
+  - harnessed ("attelé"), where the horses are pulling a two-wheeled cart called sulky where the jockey sits
+  - saddled ("monté"), where the jockey rides the horse directly
+- for jump racing:
+  - hurdling ("haies"), where the horses have to jump over meter-high obstacles made of brush, racing typically around 3 to 4kms
+  - steeple-chase (same in French), where the horses encounter a greater variety of obstacles such as mounds, pits, water streams... and race a bit longer than for hurdling, typically more than 4kms
+  - cross-country (same in French), where the race takes place in the open country, making use of various obstacles in the wild and extending from 5 to more than 7kms
+- for flat racing there is no subcategory
 
 ### Music: the horse's past performance
 For each running horse their past performance is indicated as a list of pairs of letters and numbers. In French this is
