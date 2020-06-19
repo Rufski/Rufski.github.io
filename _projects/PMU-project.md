@@ -37,6 +37,7 @@ Prospects of the project include:
 <a href="https://rufski.github.io/blog/PMU-1-prologue">Part 1 - Prologue</a>
 <i>Where I explain how I experienced first-hand the statistical fallacy of a martingale, what sparked a renewal in motivation to work on horse races again, and the roadmap I will be following.</i>
 </div>
+
 <div>
 <a href="https://rufski.github.io/blog/PMU-2-scraping">Part 2 - Scraping</a>
 <i>Where I present the procedure I followed for scraping the data from the website www.turf-fr.com. Includes the list of features of the dataset and their significance, as well as a few hurdles I encountered on the way.</i>
