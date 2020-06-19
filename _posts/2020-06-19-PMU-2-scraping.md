@@ -129,6 +129,16 @@ I did my best to prepare for missing values, filling in with a "n/a" whenever th
 
 **Also:** some feature values are inferred by the *absence* of content within the tags: for instance, in the case of blinkers, only their presence is indicated on the HTML page, so that it is impossible to distinguish a no-blinkers status from a lack of data (as opposed to the jockey's name feature, where absence of information clearly conveys lack of data).
 
-Speaking of missing values, the page of the races of Sunday the 31st of 2019 at Auteuil was empty, with no race being indicated. I added two lines of code to that effect to check whether the page was containing races.
+Speaking of missing values, the page of the races of Sunday the 31st of 2019 at Auteuil was empty, with no race being indicated. I reluctantly added two lines of code to that effect to check whether the page was containing races (I say reluctantly because those lines make the program run a `if` statement for every single race just to be able to deal with one; but I suppose it's always better to build a program that can deal with as many extra cases as possible).
 
-I regularly noticed abnormal data, such as extra horses listed, horses being listed twice, non-running horses listed as finishing the race (that case might be explained by a decision from the judges) and so on.
+I regularly noticed abnormal data, such as the number of horses listed being greater or lower than the announced number of horses running, horses being listed twice, non-running horses listed as finishing the race (although that case might be explained by a decision from the judges) and so on.
+
+A procedure for removing horses listed twice in a given race was run anytime the size of the race's dataframe wasn't matching the announced number of horses running, instead of running it for every race, to save computing time. This however will backfire in the special case where one horse is missing and one is listed twice; I consider this case to be highly unlikely, and amendable during the wrangling process anyways.
+
+## Saving the data
+
+The data was initially saved in csv format, first year by year (my computer being unable to handle holding all the data in a given dataframe), then starting 2017 semester by semester. I later thought about uploading the data onto an AWS database using a MySQL engine, less out of necessity and more to familiarize myself with those tools. 
+
+## Code
+
+The code for the webscraping program is <a href="https://github.com/Rufski/DS_project_Horse_races/blob/master/PMU_webscraping.py">here</a>.
