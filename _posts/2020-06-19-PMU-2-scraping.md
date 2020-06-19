@@ -42,7 +42,7 @@ Below is a breakdown of the informations that were collected *about the horse*:
 |jockeys_weight    |the jockey's weight|
 |barrier           |the horse's barrier position (the equivalent of a sprinter's starting block)|
 |country           |the horse's country of origin (seemingly the place of birth)|
-|blinkers          |whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences; several types of blinkers exist the source only informs on the presence or absence of them)|
+|blinkers          |whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences; several types of blinkers exist, but the source only informs on the blinker's presence or absence, not on their type)|
 |sex               |the horse's sex: female, male, gelding (castrated males)|
 |age               |the horse's age|
 |jockey            |the jockey's name|
