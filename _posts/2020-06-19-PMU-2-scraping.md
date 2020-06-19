@@ -17,7 +17,7 @@ description: First step of the project is collecting data and storing it in a SQ
 
 ## The source
 
-I took the data from the following website: https://www.turf-fr.com. Dozens of websites exist that repertory the results 
+I took the data from the following website: <a href="https://www.turf-fr.com">www.turf-fr.com</a>. Dozens of websites exist that repertory the results 
 of French races, but I chose that one first because it seemed to have more complete information on each race, but also 
 because it had a readily accessible "archive" section where one could find race results going back up to 2004 ordered 
 in a HTML format that made it easier to webscrape.
