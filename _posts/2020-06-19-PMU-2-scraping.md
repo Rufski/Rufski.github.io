@@ -16,7 +16,7 @@ description: First step of the project is collecting data and storing it in a SQ
 <br>
 
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
-<h4>Page summary:</h2>
+<h4>Page summary:</h4>
 
 <ul>
         <li><a href="#data_source">The data source</a></li>
