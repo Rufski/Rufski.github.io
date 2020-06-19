@@ -119,7 +119,7 @@ For the second element:
 
 ## Scraping strategy
 
-The website archive's section is neatly arranged by year, each year leading to a page presenting a list of the months, each month giving a list of the day races happening (one link per race *and* location, meaning races can happen at several locations on a given day; to note too, several races usually occur on a given day within a same location).
+The website archive's section is neatly arranged by year, each year leading to a page presenting a list of the months, each month leading to a list of links of the day races happening (one link per race *and* location, meaning races can happen at several locations on a given day; to note too, several races usually occur on a given day within a same location).
 
 For each feature I chose to take the content between the HTML tags *as is* instead of assumming what the possibilities could be, in case some feature would have possible values that I wasn't aware of (say, a special race subcategory).
 
