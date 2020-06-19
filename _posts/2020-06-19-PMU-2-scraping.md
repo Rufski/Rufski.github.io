@@ -2,7 +2,7 @@
 title: PMU project part 2 — Data scraping
 tags: [Python, Pandas]
 style: fill
-color: indigo
+color: $indigo
 description: First step of the project is collecting data and storing it in a SQL database.
 ---
 
