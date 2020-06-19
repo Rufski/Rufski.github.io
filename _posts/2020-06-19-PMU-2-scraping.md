@@ -73,18 +73,18 @@ Before I move on, one quick precisions on the races categories and the horse's p
 The races have been divided using two indications that I named "category" and "subcategory" even though there is no hierarchy between the two qualifiers. 
 
 The categories of races are:
-- trotting ("trot"), where horses run in a medium-paced gait, the trot
-- jump racing ("obstacle"), where the horses have to race over obstacles
-- flat racing ("plat"), where horses run full speed (gallop) between two points
+- **trotting** ("trot"), where horses run in a medium-paced gait, the trot
+- **jump racing** ("obstacle"), where the horses have to race over obstacles
+- **flat racing** ("plat"), where horses run full speed (gallop) between two points
 
 The subcategories are:
 - for trotting:
-  - harnessed ("attelé"), where the horses are pulling a two-wheeled cart called sulky where the jockey sits
-  - saddled ("monté"), where the jockey rides the horse directly
+  - **harnessed** ("attelé"), where the horses are pulling a two-wheeled cart called sulky where the jockey sits
+  - **saddled** ("monté"), where the jockey rides the horse directly
 - for jump racing:
-  - hurdling ("haies"), where the horses have to jump over meter-high obstacles made of brush, racing typically around 3 to 4kms
-  - steeple-chase (same in French), where the horses encounter a greater variety of obstacles such as mounds, pits, water streams... and race a bit longer than for hurdling, typically more than 4kms
-  - cross-country (same in French), where the race takes place in the open country, making use of various obstacles in the wild and extending from 5 to more than 7kms
+  - **hurdling** ("haies"), where the horses have to jump over meter-high obstacles made of brush, racing typically around 3 to 4kms
+  - **steeplechase** ("steeple-chase"), where the horses encounter a greater variety of obstacles such as mounds, pits, water streams... and race a bit longer than for hurdling, typically more than 4kms
+  - **cross-country** (same in French), where the race takes place in the open country, making use of various obstacles in the wild and extending from 5 to more than 7kms
 - for flat racing there is no subcategory
 
 ### Music: the horse's past performance
@@ -98,6 +98,24 @@ Here's a few examples:
 
 These indicate the horse's results in previous races, going from the most recent race (left) to oldest (right).
 
-For a given pair, the first element indicates the horse's finishing position or the reason why they didn't finish, while the second element indicates the race's category.
+For a given pair, the first element indicates the horse's finishing position or the reason why they didn't finish, while the second element indicates the race's sub/category.
 
-I don't know yet how much of the code is going to be used by the website I scraped the data from (it seems the website does not make use of all the available notations), so I will only indicate below the 
+For the first element the possible characters are:
+- **0** if the horse didn't finish among the first 9 horses
+- **1 to 9** to represent the finishing position of the horse
+- **A** if the jockey decided to stop ("arrêté") the horse mid-race
+- **D** if the horse was disqualified ("disqualifié") for not adopting the required pace; this only applies to trotting races
+- **R** ("rétrogradé") if the race's result were revised by the judges because the horse obstructed another horse's way
+- **T** if the horse fell ("tombé")
+
+For the second element:
+- **a** for harnessed trot
+- **m** for saddled trot
+- **h** for hurdling
+- **s** for steeplechase
+- **c** for cross-country
+- **p** for flat racing
+
+## Scraping strategy
+
+In general I decided to take the content of 
