@@ -38,9 +38,7 @@ Below is a breakdown of the informations that were collected *about the horse*:
 |:----------------:|-------------|
 |horse_ID          |the horse's number (a form of ID for the race)|
 |horse_name        |the horse's name|
-|unshoed           |whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or 
-rear hooves, or might not have any shoes on; considering the shoes' weight, this is sometimes believed to have an 
-impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)|
+|unshoed           |whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or rear hooves, or might not have any shoes on; considering the shoes' weight, this is sometimes believed to have an impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)|
 |weight            |the jockey's weight|
 
 - the horse's barrier position (the equivalent of a sprinter's starting block)
