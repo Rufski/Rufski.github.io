@@ -91,6 +91,7 @@ poetically refered to as the horse's "music."
 
 Here's a few examples:
 > 0a Da Da Dm 6a Da 7a 9a 2a 5a Da 6a
+
 > 7h Ah 6p 13p 0p 6p 0p (16) 5s 9h 4s 4s 1s  
 
 These indicate the horse's results in previous races, going from the most recent race (left) to oldest (right).
