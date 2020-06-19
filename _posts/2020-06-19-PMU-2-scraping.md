@@ -129,7 +129,7 @@ I did my best to prepare for missing values, filling in with a "n/a" whenever th
 
 **Also:** some feature values are inferred by the *absence* of content within the tags: for instance, in the case of blinkers, only their presence is indicated on the HTML page, so that it is impossible to distinguish a no-blinkers status from a lack of data (as opposed to the jockey's name feature, where absence of information clearly conveys lack of data).
 
-Speaking of missing values, the page of the races of Sunday the 31st of 2019 at Auteuil was empty, with no race being indicated. I reluctantly added two lines of code to that effect to check whether the page was containing races (I say reluctantly because those lines make the program run a `if` statement for every single race just to be able to deal with one; but I suppose it's always better to build a program that can deal with as many extra cases as possible).
+Speaking of missing values, the page of the races of Sunday the 31st of 2019 at Auteuil was empty, with no race being indicated. I reluctantly added two lines of code to that effect to check whether the page was containing races (I say reluctantly because those lines make the program run a `if` statement for every single race just to be able to deal with one exception; but I suppose it's always better to build a program that can deal with as many special cases as possible).
 
 I regularly noticed abnormal data, such as the number of horses listed being greater or lower than the announced number of horses running, horses being listed twice, non-running horses listed as finishing the race (although that case might be explained by a decision from the judges) and so on.
 
