@@ -1,6 +1,6 @@
 ---
 name: PMU project
-tools: [Python, Pandas, Numpy, SQL, Literature Research]
+tools: [Python, Pandas, Numpy, SQL, AWS, Literature Research]
 image: ../images/horse-races.jpg
 description: Data Science project for the analysis of French horse races.
 ---
