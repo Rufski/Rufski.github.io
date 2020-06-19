@@ -64,10 +64,21 @@ I added to these informations more info about the race itself:
 - the race's length
 - the number of horses supposed to run
 
-Before I move on, one quick precisions on the horse's performance and the race's categories.
+Before I move on, one quick precisions on the races categories and the horse's performance.
+
+### Races categories
+
 
 ### Music: the horse's past performance
 For each running horse their past performance is indicated as a list of pairs of letters and numbers. In French this is
-poetically refered to as "music."
+poetically refered to as the horse's "music."
 
-Here's an example:
+Here's a few examples:
+> 0a Da Da Dm 6a Da 7a 9a 2a 5a Da 6a
+> 7h Ah 6p 13p 0p 6p 0p (16) 5s 9h 4s 4s 1s  
+
+These indicate the horse's results in previous races, going from the most recent race (left) to oldest (right).
+
+For a given pair, the first element indicates the horse's finishing position or the reason why they didn't finish, while the second element indicates the race's category.
+
+I don't know yet how much of the code is going to be used by the website I scraped the data from (it seems the website does not make use of all the available notations), so I will only indicate below the 
