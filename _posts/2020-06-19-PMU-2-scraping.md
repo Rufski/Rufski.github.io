@@ -15,13 +15,32 @@ description: First step of the project is collecting data and storing it in a SQ
 <div style="color: #BABABA; text-align:right">Photo by Aubrey Rose Odom on Unsplash</div>
 <br>
 
-## The source
+<div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
+<h4>Page summary:</h2>
+
+<ul>
+        <li><a href="#data_source">The data source</a></li>
+        <li><a href="#data_collected">The data collected</a> (with feature description)
+        <ul>
+                <li><a href="#races_categories">Races categories and subcategories</a></li>
+                <li><a href="#music">Music: the horse's past performance</a><li>
+        </ul>
+        </li>
+        <li><a href="#scraping_strategy">Scraping strategy</a></li>
+        <li><a href="#saving_data">Saving the data</a></li>
+        <li><a href="https://github.com/Rufski/DS_project_Horse_races/blob/master/PMU_webscraping.py">Code</a></li>
+</ul>
+</div>
+
+<a id="data_source"></a>
+## The data source
 
 I took the data from the following website: <a href="https://www.turf-fr.com">www.turf-fr.com</a>. Dozens of websites exist that repertory the results 
 of French races, but I chose that one first because it seemed to have more complete information on each race, but also 
 because it had a readily accessible "archive" section where one could find race results going back up to 2004 ordered 
 in a HTML format that made it easier to webscrape.
 
+<a id="data_collected"></a>
 ## The data collected
 
 I chose a straightforward approach for data collection, considering that more refined classifications could be made 
@@ -69,6 +88,7 @@ I added to these informations more info *about the race*:
 
 Before I move on, one quick precisions on the races categories and the horse's performance.
 
+<a id="races_categories"></a>
 ### Races categories and subcategories
 
 The races have been divided using two indications that I named "category" and "subcategory" even though there is no hierarchy between the two qualifiers. 
@@ -88,6 +108,7 @@ The subcategories are:
   - **cross-country** (same in French), where the race takes place in the open country, making use of various obstacles in the wild and extending from 5 to more than 7kms
 - for flat racing there is no subcategory
 
+<a id="music"></a>
 ### Music: the horse's past performance
 For each running horse their past performance is indicated as a list of pairs of letters and numbers. In French this is
 poetically refered to as the horse's "music."
@@ -117,6 +138,7 @@ For the second element:
 - **c** for cross-country
 - **p** for flat racing
 
+<a id="scraping_strategy"></a>
 ## Scraping strategy
 
 The website archive's section is neatly arranged by year, each year leading to a page presenting a list of the months, each month leading to a list of links of the day races happening (one link per race *and* location, meaning races can happen at several locations on a given day; to note too, several races usually occur on a given day within a same location).
@@ -135,6 +157,7 @@ I regularly noticed abnormal data, such as the number of horses listed being gre
 
 A procedure for removing horses listed twice in a given race was run anytime the size of the race's dataframe wasn't matching the announced number of horses running, instead of running it for every race, to save computing time. This however will backfire in the special case where one horse is missing and one is listed twice; I consider this case to be highly unlikely, and amendable during the wrangling process anyways.
 
+<a id="saving_data"></a>
 ## Saving the data
 
 The data was initially saved in csv format, first year by year (my computer being unable to handle holding all the data in a given dataframe), then starting 2017 semester by semester. I later decided to upload the data onto an AWS database using a MySQL engine, less out of necessity and more to familiarize myself with those tools. 
