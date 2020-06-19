@@ -34,37 +34,37 @@ use. I nonetheless did my best to explain what each term refers to. For bilingua
 
 Below is a breakdown of the informations that were collected *about the horse*:
 
-| Parameter's name | Information |
+| Feature's name   | Information |
 |:----------------:|-------------|
 |horse_ID          |the horse's number (a form of ID for the race)|
 |horse_name        |the horse's name|
 |unshoed           |whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or rear hooves, or might not have any shoes on; considering the shoes' weight, this is sometimes believed to have an impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)|
-|weight            |the jockey's weight|
-
-- the horse's barrier position (the equivalent of a sprinter's starting block)
-- the horse's country of origin (seemingly the place of birth)
-- whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences;
-several types of blinkers exist the source only informs on the presence or absence of them)
-- the horse's sex: female, male, gelding (castrated males)
-- the horse's age
-- the jockey's name
-- the trainer's name
-- the horse's average timing for a km during the race
-- how much money the horse won at this race
-- the horse's former performance (see below)
-- the odds on the horse (the ratio of total money not bet on the horse to the total money bet on the horse)
-- whether the horse ends up running the race (some horses are scheduled to run but end up not running)
-- the horse's finishing position
+|jockeys_weight    |the jockey's weight|
+|barrier           |the horse's barrier position (the equivalent of a sprinter's starting block)|
+|country           |the horse's country of origin (seemingly the place of birth)|
+|blinkers          |whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences; several types of blinkers exist the source only informs on the presence or absence of them)|
+|sex               |the horse's sex: female, male, gelding (castrated males)|
+|age               |the horse's age|
+|jockey            |the jockey's name|
+|trainer           |the trainer's name|
+|average_km_timing |the horse's average timing for a km during the race|
+|wins              |how much money the horse won at this race|
+|former_performance|the horse's former performance (see below)|
+|odds              |the odds on the horse (the ratio of total money not bet on the horse to the total money bet on the horse)|
+|running           |whether the horse ends up running the race (some horses are scheduled to run but end up not running)|
+|finish_position   |the horse's finishing position|
 
 I added to these informations more info *about the race*:
-- the race category (see below)
-- the race subcategory (see below)
-- the race's name
-- the date of the race
-- the time of the day when the race is scheduled
-- the race's total money prize
-- the race's length
-- the number of horses supposed to run
+|Feature's name  | Information|
+|:--------------:|------------|
+|race_category   |the race category (see below)|
+|race_subcategory|the race subcategory (see below)|
+|race_name       |the race's name|
+|race_date       |the date of the race|
+|race_time       |the time of the day when the race is scheduled|
+|race_prize      |the race's total money prize|
+|race_length     |the race's length|
+|race_horse_number|the number of horses supposed to run|
 
 Before I move on, one quick precisions on the races categories and the horse's performance.
 
