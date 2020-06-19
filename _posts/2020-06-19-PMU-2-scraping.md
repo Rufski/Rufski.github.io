@@ -1,6 +1,6 @@
 ---
 title: PMU project part 2 — Data scraping
-tags: [Python, Pandas, SQL]
+tags: [Python, Pandas, SQL, AWS]
 style: fill
 color: secondary
 description: First step of the project is collecting data and storing it in a SQL database.
@@ -137,7 +137,7 @@ A procedure for removing horses listed twice in a given race was run anytime the
 
 ## Saving the data
 
-The data was initially saved in csv format, first year by year (my computer being unable to handle holding all the data in a given dataframe), then starting 2017 semester by semester. I later thought about uploading the data onto an AWS database using a MySQL engine, less out of necessity and more to familiarize myself with those tools. 
+The data was initially saved in csv format, first year by year (my computer being unable to handle holding all the data in a given dataframe), then starting 2017 semester by semester. I later decided to upload the data onto an AWS database using a MySQL engine, less out of necessity and more to familiarize myself with those tools. 
 
 ## Code
 
