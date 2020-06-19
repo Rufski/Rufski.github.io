@@ -55,15 +55,15 @@ Below is a breakdown of the informations that were collected *about the horse*:
 |finish_position   |the horse's finishing position|
 
 I added to these informations more info *about the race*:
-|Feature's name  | Information|
-|:--------------:|------------|
-|race_category   |the race category (see below)|
-|race_subcategory|the race subcategory (see below)|
-|race_name       |the race's name|
-|race_date       |the date of the race|
-|race_time       |the time of the day when the race is scheduled|
-|race_prize      |the race's total money prize|
-|race_length     |the race's length|
+|Feature's name   | Information|
+|:---------------:|------------|
+|race_category    |the race category (see below)|
+|race_subcategory |the race subcategory (see below)|
+|race_name        |the race's name|
+|race_date        |the date of the race|
+|race_time        |the time of the day when the race is scheduled|
+|race_prize       |the race's total money prize|
+|race_length      |the race's length|
 |race_horse_number|the number of horses supposed to run|
 
 Before I move on, one quick precisions on the races categories and the horse's performance.
