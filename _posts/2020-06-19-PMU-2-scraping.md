@@ -80,8 +80,8 @@ The categories of races are:
 
 The subcategories are:
 - for trotting:
-  - **harnessed** ("attelé"), where the horses are pulling a two-wheeled cart called sulky where the jockey sits
-  - **saddled** ("monté"), where the jockey rides the horse directly
+  - **harnessed** ("attelé"), where the horses are pulling a two-wheeled cart called "sulky" where the jockey sits
+  - **saddled** ("monté"), where the jockey rides atop the horse
 - for jump racing:
   - **hurdling** ("haies"), where the horses have to jump over meter-high obstacles made of brush, racing typically around 3 to 4kms
   - **steeplechase** ("steeple-chase"), where the horses encounter a greater variety of obstacles such as mounds, pits, water streams... and race a bit longer than for hurdling, typically more than 4kms
