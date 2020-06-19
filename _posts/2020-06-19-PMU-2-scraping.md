@@ -55,6 +55,7 @@ Below is a breakdown of the informations that were collected *about the horse*:
 |finish_position   |the horse's finishing position|
 
 I added to these informations more info *about the race*:
+
 |Feature's name   | Information|
 |:---------------:|------------|
 |race_category    |the race category (see below)|
