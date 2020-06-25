@@ -58,7 +58,7 @@ Below is a breakdown of the informations that were collected *about the horse*:
 |horse_ID          |the horse's number (a form of ID for the race)|
 |horse_name        |the horse's name|
 |unshoed           |whether the horse is shoed or unshoed (some horses might run with horseshoes on every hoof, just on their front or rear hooves, or might not have any shoes on; considering the shoes' weight, this is sometimes believed to have an impact on the horse's performance; more details in French <a href="https://hippique.blog-pmu.fr/2015/06/11/le-deferrage/">here</a>)|
-|weight            |the horse's weight, including the jockey's weight and any handicap that will be decided for the horse to wear; to be noted, when a horse wins it might be decided to increase the weight they carry to even out the chances of winning |
+|weight            |the horse's weight, including the jockey's weight and any handicap that will be decided for the horse to wear (the more a horse wins, the more handicap they might be requested to wear to give other horses a chance to win)|
 |barrier           |the horse's barrier position (the equivalent of a sprinter's starting block)|
 |country           |the horse's country of origin (seemingly the place of birth)|
 |blinkers          |whether the horse has blinkers or not (to keep nervous horses from being influenced by peripheral presences; several types of blinkers exist, but the source only informs on the blinker's presence or absence, not on their type)|
