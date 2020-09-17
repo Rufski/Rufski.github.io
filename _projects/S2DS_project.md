@@ -1,5 +1,5 @@
 ---
-name: S2DS x EPRI: solar farm project
+name: S2DS x EPRI solar farm project
 tools: [Python, Keras, Tensorflow, Pandas, Numpy, Matplotlib, Literature Research]
 image: ../images/appa.jpg
 description: How fast does electricity production decrease in solar farms? A neural network approach.
