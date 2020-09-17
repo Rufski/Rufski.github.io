@@ -14,14 +14,14 @@ description: How fast does electricity production decrease in solar farms? A neu
 <br>
 <div style="background-color: #CEE6FF; border-width: 3px; border-color: #007BFF; border-style:solid; margin: 15px; padding: 15px">
 <h2> In 60s or less:</h2>
-  <div>As part of the S2DS bootcamp/hackaton, in partnership with the Electric Power Research Institute (EPRI), I worked in a team of 5 to quantify the decrease over time of the capacity of a solar farm to produce electricity. This post presents the problem statement and my own contributions to this team project.</div>
-  <br>
-  <div>My contribution to this project was to:</div>
-  <ul>
+  <div>As part of the S2DS bootcamp/hackaton, in partnership with the Electric Power Research Institute (EPRI), I worked in a team of 5 to quantify the decrease over time of the capacity of a solar farm to produce electricity. This post presents the problem statement and my own contributions to this team project, mainly:</div>
+<div>
+<ul>
     <li>Perform a thorough analysis of the data provided by EPRI, and detect anomalies that allowed EPRI to revise their solar farms simulations (from which the data was produced);</li>
     <li>Develop a neural network that quantifies the material ageing based on the electricity production of a solar farm, with an accuracy 5 times that of the industry's current practice;</li>
     <li>Present a layman-accessible introduction to the business and technical case of the project to other businesses partnering with the S2DS bootcamp.</li>
   </ul>
+  </div>
 </div>
 
 ### Part 1
