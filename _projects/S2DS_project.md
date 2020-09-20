@@ -35,12 +35,12 @@ The team used an agile development approach, holding scrum meeting every morning
 
 #### Data Analysis
 
-As stated above, the mission was to develop a model that takes as input a time series of the electricity production of a solar farm. For that purpose we received data from our technical partner at EPRI of such time series, not measured on actual solar farms but created by software simulation. This allowed us to start with naively simple data and gradually increasing its complexity: first ignoring all degradation effects except the material's ageing, then including damages due to dirt, then including variations due to weather.
+As stated above, the mission was to develop a model that takes as input a time series of the electricity production of a solar farm. For that purpose we received data from our technical partner at EPRI of such time series, not measured on actual solar farms but created by software simulation. This allowed us to start with naively simple data and gradually increase its complexity: first ignoring all degradation effects except the material's ageing, then including damages due to dirt, then including variations due to weather.
 
-Any proper data science project begins with a thorough data analysis, a task I picked up. I wrote a 22-page-long report on everything the team knew about the data, including the way it was generated and the various features of the time series (definition, units, format, etc.). I included plots over all datasets of basic properties of the features for each time series (min, max, mean, standard deviation, median), and also a few examples, over various time scales, of those features (for instance, electricity production over a day, over a week, over a month, etc.).
+Any proper data science project begins with a thorough data analysis, a task I picked up. I wrote a 22-page-long report on everything the team knew about the data, including the way it was generated and the various features of the time series (definition, units, format, etc.). I included plots over all datasets of basic properties of the features for each time series (min, max, mean, standard deviation...), and also a few examples, over various time scales, of those features (for instance, electricity production over a day, over a week, over a month, etc.).
 
-Besides editing a report that my teammates could refer to for any question regarding the data, I also uncovered the following errors in the data:
-- In the features related to weather at the solar farm's location, temperatures ranged from 0°C to 80°C (32F to 176F for our American friends), while the wind speed ranged from -25m/s to 40/ms. This puzzling observation led me to realize that the labels of the temperature and wind speed features had been mistakenly swapped.
+Besides compiling a report that my teammates could refer to for any question regarding the data, I also uncovered the following errors in the data:
+- In the features related to weather at the solar farm's location, temperatures ranged from 0°C to 80°C (32F to 176F for our American friends), while the wind speed ranged from -25m/s to 40/ms. These bizarre values led me to realize that the labels of the temperature and wind speed features had been mistakenly swapped.
 - In the solar farm simulations that included the effects of weather, some simulations generated solar farms that would not produce any electricity for whole weeks, an unimaginable scenario given that even a week of thick clouds would allow solar farms to generate a minimum of electricity.
 
 Both of those errors were promptly reported to our EPRI partners who corrected their data-generating process. The newly created data was checked once more, and found free of those errors.
@@ -48,8 +48,14 @@ Both of those errors were promptly reported to our EPRI partners who corrected t
 
 #### Neural network model
 
+Next, I developed a neural network model that could disaggregate the material's ageing from the solar farm's elecricity production.
+
+Why neural networks? The choice was less out of an intuition that this would be an appropriate methods, and more our of curiosity toward this technique, wanting to seize the opportunity of this bootcamp to explore in depth the possibilities of this tool.
+
+Given the short amount of time that we had to achieve our goal, I took a quick-and-dirty approach rather than a slow-and-thorough one. For example, I noticed that 5-fold cross-validation returned me a RMSE on the model with a relatively low standard deviation, and thereafter decided to evaluate models on one training instead of 5 and postpone the 5-fold cross-validation up to the time when accurate RMSE would have to be reported. Another example was the number of layers
+
 ### Code
-[The code is here](https://github.com/Rufski/PhD_work_Effective_parameters_retrieval_program)
+[The code is here](https://github.com/Rufski/Aug20_Epri)
 
 
 
