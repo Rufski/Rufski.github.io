@@ -17,7 +17,7 @@ description: How fast does electricity production decrease in solar farms? A neu
   <div>As part of the <a href="http://www.s2ds.org/">S2DS</a> bootcamp/hackaton, in partnership with the <a href="https://www.epri.com/">Electric Power Research Institute</a> (EPRI), I worked within a team of 5 to quantify the decrease over time of the capacity of a solar farm to produce electricity. This post presents the problem statement and my own contributions to this team project, mainly:</div>
 <ul>
     <li>Perform a thorough analysis of the data provided by EPRI, and detect anomalies that allowed EPRI to revise their solar farm simulations (from which the data was produced);</li>
-    <li>Develop a neural network that quantifies the deterioration of electricity production due to material ageing with an accuracy 5 times greater than the industry's current tools;</li>
+    <li>Develop a neural network (NN) that quantifies the deterioration of electricity production due to material ageing with an accuracy 5 times greater than the industry's current tools;</li>
     <li>Present a layman-accessible introduction to the business and technical case of the project to other businesses partnering with the S2DS bootcamp.</li>
   </ul>
 </div>
@@ -50,9 +50,11 @@ Both of those errors were promptly reported to our EPRI partners who corrected t
 
 Next, I developed a neural network model that could disaggregate the material's ageing from the solar farm's elecricity production.
 
-Why neural networks? The choice was less out of an intuition that this would be an appropriate methods, and more our of curiosity toward this technique, wanting to seize the opportunity of this bootcamp to explore in depth the possibilities of this tool.
+Why neural networks? For one, these have been successfully applied in the past to deal with time series, using a variety of architectures (ANN, CNN, RNN...). More personally, I was curious about this technique and wanted to seize the opportunity of this bootcamp to explore in depth the possibilities of this tool.
 
-Given the short amount of time that we had to achieve our goal, I took a quick-and-dirty approach rather than a slow-and-thorough one. For example, I noticed that 5-fold cross-validation returned me a RMSE on the model with a relatively low standard deviation, and thereafter decided to evaluate models on one training instead of 5 and postpone the 5-fold cross-validation up to the time when accurate RMSE would have to be reported. Another example was the number of layers
+Given the short amount of time that we had to achieve our goal, I took a quick-and-dirty approach rather than a slow-and-thorough one. For example, I noticed that 5-fold cross-validation returned me a RMSE on the model with a relatively low standard deviation, and thereafter decided to evaluate models on one training instead of 5 and postpone the 5-fold cross-validation up to the time when accurate RMSE would have to be reported. Another example is the number of layers chosen for the neural networks: instead of running time-costly grid searches or randomized searches for each model, I tested a few number of layers and stuck with the number that roughly gave the best accuracy-to-training-time ratio. In short, I gave priority to a timely delivery of a proof of concept.
+
+I considered several structures, mainly artificial NN (stacks of dense layers), convolutional NN and some variations (WaveNet), and recurrent NN. RNN were excluded because they are limited in the number of time steps they can handle and we wanted to keep a time-series resolution of daily frequency, leading to about 2000 time steps per series. CNN and WaveNet were considered but seemed like they were returning results of precision comparable to ANN while requiring longer training time.
 
 ### Code
 [The code is here](https://github.com/Rufski/Aug20_Epri)
