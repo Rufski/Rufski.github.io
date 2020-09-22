@@ -57,7 +57,7 @@ Given the short amount of time that we had to achieve our goal, I took a quick-a
 I considered several structures, mainly artificial NN (stacks of dense layers), convolutional NN and some variations (WaveNet), and recurrent NN. RNN were excluded because they are limited in the number of time steps they can handle and we wanted to keep a time-series resolution of daily frequency, leading to about 2000 time steps per series. CNN and WaveNet were considered but seemed like they were returning results of precision comparable to ANN while requiring longer training time.
 
 ### Code
-[The code is here](https://github.com/Rufski/Aug20_Epri)
+[The code is here](https://github.com/Rufski/S2DS_EPRI)
 
 
 
