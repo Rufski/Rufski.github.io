@@ -1,9 +1,8 @@
 ### Site Settings ###
 title               : Wegrowski's data blog
 description         : >-
-                      Ph.D. in Mechanical Engineering from 9 to 5,
-                      Data Scientist after 5
-                      and on the weekends too.
+                      Ph.D. in Mechanical Engineering turned
+                      Data Scientist. Currently on the job hunt!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Rufski/Rufski.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
