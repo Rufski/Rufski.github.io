@@ -51,12 +51,6 @@ defaults:
   - scope:
       path: ""
       type: "posts"
-  - scope:
-      path: "https://www.linkedin.com/in/wegrowski/"
-      type: "LinkedIn"
-  - scope:
-      path: "http://github.com/rufski/"
-      type: "GitHub"
     values:
       comments: false                                   # Set to true to enable disqus comments
 
